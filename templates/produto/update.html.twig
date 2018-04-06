@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+
+{% block title %} Edição de produto -  {% endblock %}
+
+
+
+{% block body %}
+    <h1>Editar Produto - <small>{{ produto.nome }}</small></h1>
+    <hr>
+    {% include "produto/_form.html.twig"%}
+{% endblock %}
